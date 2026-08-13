@@ -24,16 +24,16 @@ export const ComingSoon = () => {
           </div>
         </header>
 
-        {/* Coming Soon Pill Badge */}
+        {/* Coming Soon Pill Badge - Prominent & Big */}
         <div className={styles.comingSoonBadgeRow}>
           <div className={styles.comingSoonPill}>
             <span className={styles.pulseDot} />
-            <Clock size={14} />
+            <Clock size={18} />
             <span>Portal Launching Soon</span>
           </div>
         </div>
 
-        {/* Main Title & Hero Copy Requested by User */}
+        {/* Main Title & Hero Copy */}
         <main className={styles.mainHero}>
           <h1 className={styles.mainTitle}>
             Looking for a <span className={styles.highlight}>Referral?</span>
