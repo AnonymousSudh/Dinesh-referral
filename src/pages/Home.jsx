@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import ComingSoon from '../components/ComingSoon/ComingSoon';
-import FloatingWhatsApp from '../components/FloatingWhatsApp/FloatingWhatsApp';
 
 export const Home = () => {
   useEffect(() => {
@@ -10,7 +9,6 @@ export const Home = () => {
   return (
     <div className="landing-page">
       <ComingSoon />
-      <FloatingWhatsApp />
     </div>
   );
 };

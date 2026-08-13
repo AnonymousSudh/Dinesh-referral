@@ -1,6 +1,6 @@
 import React from 'react';
-import { MessageSquare, ShieldCheck, Sparkles, ArrowRight, Clock } from 'lucide-react';
-import { business, openWhatsApp } from '../../config/business';
+import { ShieldCheck, Sparkles, Clock } from 'lucide-react';
+import { business } from '../../config/business';
 import dineshImg from '../../assets/Dinesh.jpeg';
 import styles from './ComingSoon.module.css';
 
@@ -46,23 +46,6 @@ export const ComingSoon = () => {
           <p className={styles.description}>
             We help candidates connect with referral opportunities through our network of professionals working across different companies.
           </p>
-
-          {/* Primary WhatsApp Action */}
-          <div className={styles.ctaGroup}>
-            <button
-              className={styles.whatsappPrimaryBtn}
-              onClick={() => openWhatsApp("Hello Dinesh Career Guidance 👋 I would like to inquire about referral opportunities.")}
-            >
-              <MessageSquare size={22} />
-              <span>Connect on WhatsApp</span>
-              <ArrowRight size={20} />
-            </button>
-          </div>
-
-          <div className={styles.trustNote}>
-            <ShieldCheck size={16} className={styles.checkIcon} />
-            <span>Direct WhatsApp assistance with founder {business.founder}</span>
-          </div>
         </main>
 
         {/* Founder Card Footer */}
