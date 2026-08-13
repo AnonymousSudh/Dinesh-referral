@@ -1,0 +1,159 @@
+.storiesSection {
+  padding: 80px 0;
+  background-color: var(--color-bg-soft);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.storyCard {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.25s ease;
+}
+
+.storyCard:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-card);
+  border-color: var(--color-primary);
+}
+
+.featuredCard {
+  border-left: 4px solid var(--color-primary);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.candidateProfile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatarImg {
+  width: 50px;
+  height: 50px;
+  border-radius: var(--radius-pill);
+  object-fit: cover;
+  border: 2px solid var(--color-primary-light);
+}
+
+.name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-navy);
+}
+
+.experience {
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+}
+
+/* Status Badges */
+.statusBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.775rem;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: var(--radius-pill);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.badgeSubmitted {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+}
+
+.badgeInterview {
+  background-color: var(--color-warning-light);
+  color: var(--color-warning);
+}
+
+.badgeOffer {
+  background-color: #e0e7ff;
+  color: #4338ca;
+}
+
+.badgeJoined {
+  background-color: var(--color-success-light);
+  color: var(--color-success);
+}
+
+.detailsBox {
+  background-color: var(--color-bg-soft);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid var(--color-border);
+}
+
+.detailRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  color: var(--color-navy);
+}
+
+.detailIcon {
+  color: var(--color-primary);
+  margin-right: 6px;
+}
+
+.tagPill {
+  font-size: 0.75rem;
+  font-weight: 600;
+  background-color: #ffffff;
+  color: var(--color-text-secondary);
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-border);
+}
+
+.dateLabel {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.storyText {
+  font-size: 0.925rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .storiesSection {
+    padding: 50px 0;
+  }
+}

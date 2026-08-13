@@ -1,0 +1,23 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background-color: var(--color-success-light);
+  color: var(--color-success);
+  font-size: 0.775rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: var(--radius-pill);
+  border: 1px solid rgba(22, 163, 74, 0.2);
+  white-space: nowrap;
+}
+
+.icon {
+  color: var(--color-success);
+  flex-shrink: 0;
+}
+
+.small {
+  font-size: 0.7rem;
+  padding: 2px 6px;
+}

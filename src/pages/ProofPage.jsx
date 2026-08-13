@@ -1,0 +1,28 @@
+import React, { useEffect } from 'react';
+import Navbar from '../components/Navbar/Navbar';
+import ProofGallery from '../components/ProofGallery/ProofGallery';
+import WhatsAppCTA from '../components/WhatsAppCTA/WhatsAppCTA';
+import Footer from '../components/Footer/Footer';
+import FloatingWhatsApp from '../components/FloatingWhatsApp/FloatingWhatsApp';
+import MobileBottomCTA from '../components/MobileBottomCTA/MobileBottomCTA';
+
+export const ProofPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return (
+    <div>
+      <Navbar />
+      <main style={{ paddingTop: '20px' }}>
+        <ProofGallery />
+        <WhatsAppCTA />
+      </main>
+      <Footer />
+      <FloatingWhatsApp />
+      <MobileBottomCTA />
+    </div>
+  );
+};
+
+export default ProofPage;

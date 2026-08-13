@@ -1,0 +1,47 @@
+.bottomBar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: var(--mobile-bottom-bar-height);
+  background-color: #ffffff;
+  border-top: 1px solid var(--color-border);
+  box-shadow: 0 -4px 16px rgba(15, 23, 42, 0.1);
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 8px;
+  padding: 8px 12px;
+  z-index: 1000;
+}
+
+@media (min-width: 768px) {
+  .bottomBar {
+    display: none;
+  }
+}
+
+.whatsappBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: var(--color-whatsapp);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border-radius: var(--radius-pill);
+  box-shadow: 0 2px 8px rgba(37, 211, 102, 0.3);
+}
+
+.callBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: var(--color-bg-soft);
+  color: var(--color-navy);
+  font-weight: 600;
+  font-size: 0.875rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-border-dark);
+}
