@@ -72,7 +72,6 @@ export const Footer = () => {
           <div className={styles.infoCol}>
             <h4 className={styles.colTitle}>Business Details</h4>
             <p className={styles.infoLine}><strong>Founder:</strong> {business.founder}</p>
-            <p className={styles.infoLine}><strong>Brand:</strong> {business.brand}</p>
             <p className={styles.infoLine}><strong>Primary Contact:</strong> WhatsApp Direct</p>
             <p className={styles.infoLine}><strong>Phone:</strong> {business.phone}</p>
           </div>

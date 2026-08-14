@@ -8,23 +8,6 @@ export const FloatingWhatsApp = () => {
 
   return (
     <div className={styles.floatingContainer}>
-      {/* Subtle load tooltip */}
-      {!tooltipDismissed && (
-        <div className={styles.tooltipBox}>
-          <span>Need a Referral? Chat with us</span>
-          <button
-            className={styles.dismissBtn}
-            onClick={(e) => {
-              e.stopPropagation();
-              setTooltipDismissed(true);
-            }}
-            aria-label="Close tooltip"
-          >
-            <X size={12} />
-          </button>
-        </div>
-      )}
-
       {/* Floating Button */}
       <button
         className={styles.floatingBtn}

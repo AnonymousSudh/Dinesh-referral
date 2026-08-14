@@ -1,3 +1,22 @@
+import eImg1 from './emailScreenShot/WhatsApp Image 2026-08-12 at 10.51.34 PM.jpeg';
+import eImg2 from './emailScreenShot/WhatsApp Image 2026-08-12 at 10.51.50 PM.jpeg';
+import eImg3 from './emailScreenShot/WhatsApp Image 2026-08-12 at 3.17.18 PM.jpeg';
+import eImg4 from './emailScreenShot/WhatsApp Image 2026-08-12 at 3.17.34 PM.jpeg';
+import eImg5 from './emailScreenShot/WhatsApp Image 2026-08-12 at 3.19.13 PM.jpeg';
+
+import wImg1 from './websiteScreenshot/WhatsApp Image 2026-08-12 at 10.51.13 PM.jpeg';
+import wImg2 from './websiteScreenshot/WhatsApp Image 2026-08-12 at 10.53.03 PM.jpeg';
+import wImg3 from './websiteScreenshot/WhatsApp Image 2026-08-12 at 3.18.06 PM.jpeg';
+import wImg4 from './websiteScreenshot/WhatsApp Image 2026-08-12 at 3.18.36 PM.jpeg';
+
+import vVid1 from './video/WhatsApp Video 2026-08-12 at 10.52.40 PM.mp4';
+import vVid2 from './video/WhatsApp Video 2026-08-12 at 3.16.05 PM.mp4';
+import vVid3 from './video/WhatsApp Video 2026-08-12 at 3.16.18 PM.mp4';
+import vVid4 from './video/WhatsApp Video 2026-08-12 at 3.16.32 PM.mp4';
+import vVid5 from './video/WhatsApp Video 2026-08-12 at 3.16.45 PM.mp4';
+import vVid6 from './video/WhatsApp Video 2026-08-12 at 3.17.02 PM.mp4';
+import vVid7 from './video/WhatsApp Video 2026-08-12 at 3.18.58 PM.mp4';
+
 // Proof Gallery Data - Categorized by Content Type, Size, and Orientation
 // Categories: emailScreenshot (Portrait/Tall), websiteScreenshot (Landscape/Wide), video (Video Player)
 
@@ -9,119 +28,217 @@ export const proofCategories = [
 ];
 
 export const proofs = [
-  // 1. Email Screenshots (Portrait / Tall Aspect Ratio 3:4)
+  // 1. Email Screenshots
   {
     id: "e1",
-    title: "Official Employee Referral Confirmation Email",
+    title: "Official Referral Email",
     category: "emailScreenshot",
     type: "email",
     orientation: "portrait",
     aspectRatio: "3 / 4",
-    date: "August 2026",
-    sender: "Corporate HR Referral Portal <referrals@company.com>",
-    subject: "Candidate Application Referred Successfully - Ref #9842",
-    description: "Official automated email notification sent to the internal referrer confirming the candidate's resume was submitted into the recruitment system.",
+    date: "Recent",
+    description: "Official automated email notification confirming candidate referral.",
     privacyMasked: true,
-    details: "Candidate ID: [MASKED-9842] | Position: Senior Software Engineer",
-    image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=1000",
+    image: eImg1,
     badge: "Email Screenshot"
   },
   {
     id: "e2",
-    title: "HR Interview Invitation Email Update",
+    title: "Referral Confirmation",
     category: "emailScreenshot",
     type: "email",
     orientation: "portrait",
     aspectRatio: "3 / 4",
-    date: "July 2026",
-    sender: "Talent Acquisition Team <hr@techfirm.com>",
-    subject: "Invitation to Technical Interview Round 1",
-    description: "Direct email update received by candidate after initial referral profile screening.",
+    date: "Recent",
+    description: "Confirmation of successful candidate submission.",
     privacyMasked: true,
-    details: "Candidate Email: c*******@gmail.com | Status: Round 1 Scheduled",
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=1000",
+    image: eImg2,
     badge: "Email Screenshot"
   },
   {
     id: "e3",
-    title: "Official Offer Letter Acknowledgment Email",
+    title: "Application Status Update",
     category: "emailScreenshot",
     type: "email",
     orientation: "portrait",
     aspectRatio: "3 / 4",
-    date: "June 2026",
-    sender: "HR Operations <onboarding@enterprise.com>",
-    subject: "Formal Employment Offer Letter & Joining Details",
-    description: "Offer rollout confirmation email snippet shared by candidate with Dinesh Career Guidance.",
+    date: "Recent",
+    description: "Direct email update showing referral status.",
     privacyMasked: true,
-    details: "Offer Ref: OL-2026-XXXX | Position: Backend Tech Lead",
-    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=1000",
+    image: eImg3,
+    badge: "Email Screenshot"
+  },
+  {
+    id: "e4",
+    title: "Candidate Update",
+    category: "emailScreenshot",
+    type: "email",
+    orientation: "portrait",
+    aspectRatio: "3 / 4",
+    date: "Recent",
+    description: "Email communication detailing next steps.",
+    privacyMasked: true,
+    image: eImg4,
+    badge: "Email Screenshot"
+  },
+  {
+    id: "e5",
+    title: "Offer & Registration",
+    category: "emailScreenshot",
+    type: "email",
+    orientation: "portrait",
+    aspectRatio: "3 / 4",
+    date: "Recent",
+    description: "Details concerning candidate profile registration and offer progression.",
+    privacyMasked: true,
+    image: eImg5,
     badge: "Email Screenshot"
   },
 
-  // 2. Website Screenshots (Landscape / Wide Aspect Ratio 16:9)
+  // 2. Website Screenshots
   {
     id: "w1",
-    title: "Internal Referral Portal Dashboard",
+    title: "Internal Portal Dashboard",
     category: "websiteScreenshot",
     type: "website",
     orientation: "landscape",
     aspectRatio: "16 / 9",
-    date: "August 2026",
-    portalUrl: "https://internal-referrals.company-portal.com/dashboard",
-    description: "Wide desktop browser screenshot showing active referral status 'Profile In Screening' inside the corporate employee portal.",
+    date: "Recent",
+    description: "Screenshot showing active referral tracking within the portal.",
     privacyMasked: true,
-    details: "Ref ID: #REF-2026-781 | Internal Referrer Verified",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=800",
+    image: wImg1,
     badge: "Website Screenshot"
   },
   {
     id: "w2",
-    title: "Candidate Application Tracking Status Page",
+    title: "Referral Status Page",
     category: "websiteScreenshot",
     type: "website",
     orientation: "landscape",
     aspectRatio: "16 / 9",
-    date: "July 2026",
-    portalUrl: "https://careers.globaltech.com/my-applications/status",
-    description: "Full portal status page screenshot displaying 'Referred by Employee - Interview In Progress'.",
+    date: "Recent",
+    description: "Application tracking snapshot demonstrating real referral progress.",
     privacyMasked: true,
-    details: "Application Ref: APP-88219 | Verified Portal Data",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=800",
+    image: wImg2,
+    badge: "Website Screenshot"
+  },
+  {
+    id: "w3",
+    title: "Candidate Profile System",
+    category: "websiteScreenshot",
+    type: "website",
+    orientation: "landscape",
+    aspectRatio: "16 / 9",
+    date: "Recent",
+    description: "View of the candidate's active profile in the employer system.",
+    privacyMasked: true,
+    image: wImg3,
+    badge: "Website Screenshot"
+  },
+  {
+    id: "w4",
+    title: "Application Confirmation",
+    category: "websiteScreenshot",
+    type: "website",
+    orientation: "landscape",
+    aspectRatio: "16 / 9",
+    date: "Recent",
+    description: "Final confirmation screen indicating verified successful referral.",
+    privacyMasked: true,
+    image: wImg4,
     badge: "Website Screenshot"
   },
 
-  // 3. Video Proofs (Video Player 16:9)
+  // 3. Video Proofs
   {
     id: "v1",
-    title: "Candidate Video Testimonial & Process Feedback",
+    title: "Video Testimonial 1",
     category: "video",
     type: "video",
-    orientation: "landscape",
-    aspectRatio: "16 / 9",
-    date: "August 2026",
-    duration: "1:15",
-    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-    poster: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1200&q=800",
-    description: "Real candidate video feedback sharing their experience connecting with Dinesh Career Guidance on WhatsApp.",
+    orientation: "portrait",
+    aspectRatio: "9 / 16",
+    date: "Recent",
+    videoUrl: vVid1,
+    description: "Candidate video sharing their experience connecting with Dinesh Career Guidance.",
     privacyMasked: false,
-    details: "Verified Video Testimonial | Software Professional",
     badge: "Video Proof"
   },
   {
     id: "v2",
-    title: "Referral Success Journey & Offer Experience Video",
+    title: "Video Testimonial 2",
     category: "video",
     type: "video",
-    orientation: "landscape",
-    aspectRatio: "16 / 9",
-    date: "July 2026",
-    duration: "0:58",
-    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-    poster: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=800",
-    description: "Java Backend Developer sharing how direct referral enabled her profile to reach hiring teams.",
+    orientation: "portrait",
+    aspectRatio: "9 / 16",
+    date: "Recent",
+    videoUrl: vVid2,
+    description: "A successful referral sharing their journey and offer details.",
     privacyMasked: false,
-    details: "Verified Video Testimonial | FinTech Specialist",
+    badge: "Video Proof"
+  },
+  {
+    id: "v3",
+    title: "Video Testimonial 3",
+    category: "video",
+    type: "video",
+    orientation: "portrait",
+    aspectRatio: "9 / 16",
+    date: "Recent",
+    videoUrl: vVid3,
+    description: "Feedback regarding the professional networking and referral system.",
+    privacyMasked: false,
+    badge: "Video Proof"
+  },
+  {
+    id: "v4",
+    title: "Video Testimonial 4",
+    category: "video",
+    type: "video",
+    orientation: "portrait",
+    aspectRatio: "9 / 16",
+    date: "Recent",
+    videoUrl: vVid4,
+    description: "Real-time walkthrough or discussion of the job placement outcome.",
+    privacyMasked: false,
+    badge: "Video Proof"
+  },
+  {
+    id: "v5",
+    title: "Video Testimonial 5",
+    category: "video",
+    type: "video",
+    orientation: "portrait",
+    aspectRatio: "9 / 16",
+    date: "Recent",
+    videoUrl: vVid5,
+    description: "Candidate reflecting on the value of direct employee referrals.",
+    privacyMasked: false,
+    badge: "Video Proof"
+  },
+  {
+    id: "v6",
+    title: "Video Testimonial 6",
+    category: "video",
+    type: "video",
+    orientation: "portrait",
+    aspectRatio: "9 / 16",
+    date: "Recent",
+    videoUrl: vVid6,
+    description: "Success story from an applicant placed through the platform.",
+    privacyMasked: false,
+    badge: "Video Proof"
+  },
+  {
+    id: "v7",
+    title: "Video Testimonial 7",
+    category: "video",
+    type: "video",
+    orientation: "portrait",
+    aspectRatio: "9 / 16",
+    date: "Recent",
+    videoUrl: vVid7,
+    description: "Direct feedback from a recently hired candidate.",
+    privacyMasked: false,
     badge: "Video Proof"
   }
 ];
