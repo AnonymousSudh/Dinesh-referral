@@ -28,10 +28,6 @@ export const Founder = () => {
                     loading="lazy"
                   />
                 </div>
-                <div className={styles.verifiedFounderBadge}>
-                  <ShieldCheck size={16} />
-                  <span>Verified Founder</span>
-                </div>
               </div>
             </div>
 

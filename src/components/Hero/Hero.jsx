@@ -131,9 +131,13 @@ export const Hero = () => {
                 <div className={styles.reviewerMeta}>
                   <div
                     className={styles.reviewerAvatar}
-                    style={{ backgroundColor: activeReview.color || '#1D4ED8' }}
+                    style={activeReview.image ? {} : { backgroundColor: activeReview.color || '#1D4ED8' }}
                   >
-                    {activeReview.initials}
+                    {activeReview.image ? (
+                      <img src={activeReview.image} alt={activeReview.name} className={styles.reviewerImage} />
+                    ) : (
+                      activeReview.initials
+                    )}
                   </div>
                   <div>
                     <h3 className={styles.reviewerName}>{activeReview.name}</h3>

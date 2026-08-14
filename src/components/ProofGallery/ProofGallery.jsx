@@ -109,12 +109,23 @@ export const ProofGallery = () => {
                   className={styles.imageContainer}
                   style={{ aspectRatio: item.aspectRatio || (isEmail ? '3/4' : '16/9') }}
                 >
-                  <img
-                    src={isVideo ? item.poster : item.image}
-                    alt={item.title}
-                    className={styles.proofImage}
-                    loading="lazy"
-                  />
+                  {isVideo ? (
+                    <video
+                      src={`${item.videoUrl}#t=0.001`}
+                      poster={item.poster}
+                      className={styles.proofImage}
+                      preload="metadata"
+                      muted
+                      playsInline
+                    />
+                  ) : (
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className={styles.proofImage}
+                      loading="lazy"
+                    />
+                  )}
 
                   {/* Overlay Hover State */}
                   <div className={styles.imageOverlay}>
