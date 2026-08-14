@@ -47,6 +47,19 @@ export const Footer = () => {
                 </svg>
               </a>
               <a
+                href={business.linkedinUrl}
+                target="_blank"
+                rel="noreferrer"
+                className={styles.socialBtn}
+                aria-label="LinkedIn"
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+              <a
                 href={`tel:${business.rawPhone}`}
                 className={styles.socialBtn}
                 aria-label="Direct Phone"
@@ -62,9 +75,9 @@ export const Footer = () => {
             <ul className={styles.linkList}>
               <li><Link to="/">Home</Link></li>
               <li><Link to="/reviews">Candidate Reviews</Link></li>
-              <li><Link to="/success-stories">Success Stories</Link></li>
               <li><Link to="/proof">Referral Proof</Link></li>
               <li><Link to="/contact">Contact Us</Link></li>
+              <li><Link to="/privacy-policy">Privacy Policy</Link></li>
             </ul>
           </div>
 
@@ -72,20 +85,8 @@ export const Footer = () => {
           <div className={styles.infoCol}>
             <h4 className={styles.colTitle}>Business Details</h4>
             <p className={styles.infoLine}><strong>Founder:</strong> {business.founder}</p>
-            <p className={styles.infoLine}><strong>Primary Contact:</strong> WhatsApp Direct</p>
             <p className={styles.infoLine}><strong>Phone:</strong> {business.phone}</p>
           </div>
-        </div>
-
-        {/* Legal Disclaimer Box */}
-        <div className={styles.disclaimerBox}>
-          <div className={styles.disclaimerHeader}>
-            <ShieldCheck size={16} className={styles.shieldIcon} />
-            <span>Legal Disclaimer</span>
-          </div>
-          <p className={styles.disclaimerText}>
-            Dinesh Career Guidance provides referral assistance through its professional network. A referral does not guarantee an interview, offer, or employment. Recruitment and hiring decisions are made solely by the respective companies. Dinesh Career Guidance is not an official representative of any company unless explicitly stated.
-          </p>
         </div>
 
         {/* Bottom Copyright */}

@@ -5,6 +5,7 @@ import ReviewsPage from './pages/ReviewsPage';
 import SuccessStoriesPage from './pages/SuccessStoriesPage';
 import ProofPage from './pages/ProofPage';
 import ContactPage from './pages/ContactPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/success-stories" element={<SuccessStoriesPage />} />
         <Route path="/proof" element={<ProofPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
       </Routes>
     </Router>
   );

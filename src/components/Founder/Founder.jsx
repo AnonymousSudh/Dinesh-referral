@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageSquare, ShieldCheck, Check, Sparkles } from 'lucide-react';
+import { MessageSquare, ShieldCheck, Check } from 'lucide-react';
 import { business, openWhatsApp } from '../../config/business';
 import dineshImg from '../../assets/Dinesh.jpeg';
 import styles from './Founder.module.css';
@@ -34,7 +34,7 @@ export const Founder = () => {
             {/* Right Biography Column */}
             <div className={styles.bioCol}>
               <span className={styles.tag}>
-                <Sparkles size={14} /> Founder Spotlight
+                Founder Spotlight
               </span>
               <h2 className={styles.founderName}>Meet {business.founder}</h2>
               <p className={styles.founderTitle}>
