@@ -422,6 +422,7 @@
 @media (max-width: 768px) {
   .navContent {
     padding: 14px 16px;
+    flex-wrap: wrap;
   }
 
   .main {
@@ -437,30 +438,149 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
+  .navContent {
+    padding: 10px 12px;
+    gap: 6px;
+  }
+
+  .brand {
+    gap: 8px;
+    min-width: 0;
+    flex: 1;
+    overflow: hidden;
+  }
+
+  .brandText {
+    min-width: 0;
+  }
+
+  .logoMark {
+    width: 30px;
+    height: 30px;
+    font-size: 0.75rem;
+    border-radius: 7px;
+    flex-shrink: 0;
+  }
+
+  .brandName {
+    font-size: 0.78rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .brandSub {
+    font-size: 0.58rem;
+  }
+
   .founderChip {
-    padding: 4px 12px 4px 4px;
+    padding: 3px 8px 3px 3px;
+    gap: 5px;
+    flex-shrink: 0;
+  }
+
+  .founderImg {
+    width: 24px;
+    height: 24px;
   }
 
   .founderName {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
+    white-space: nowrap;
   }
 
   .founderTitle {
     display: none;
   }
 
+  .main {
+    padding: 24px 16px 20px;
+  }
+
   .statusPill {
-    font-size: 0.72rem;
-    padding: 6px 14px;
+    font-size: 0.7rem;
+    padding: 6px 12px;
+    gap: 6px;
+    margin-bottom: 20px;
+  }
+
+  .countdown {
+    gap: 6px;
+  }
+
+  .timerFlip {
+    width: 72px;
+    height: 80px;
+    border-radius: 10px;
+  }
+
+  .timerDigit {
+    font-size: 2rem;
+  }
+
+  .timerLabel {
+    font-size: 0.55rem;
+  }
+
+  .separator {
+    font-size: 1.5rem;
+  }
+
+  .tagline {
+    margin-bottom: 24px;
   }
 
   .bodyText {
     font-size: 0.85rem;
+    padding: 0 4px;
   }
 
   .ctaButton {
     padding: 12px 22px;
     font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .navContent {
+    padding: 8px 10px;
+  }
+
+  .logoMark {
+    width: 26px;
+    height: 26px;
+    font-size: 0.65rem;
+  }
+
+  .brandName {
+    font-size: 0.7rem;
+  }
+
+  .founderChip {
+    padding: 2px 6px 2px 2px;
+    gap: 4px;
+  }
+
+  .founderImg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .founderName {
+    font-size: 0.62rem;
+  }
+
+  .timerFlip {
+    width: 62px;
+    height: 70px;
+  }
+
+  .timerDigit {
+    font-size: 1.7rem;
+  }
+
+  .separator {
+    font-size: 1.3rem;
   }
 }
