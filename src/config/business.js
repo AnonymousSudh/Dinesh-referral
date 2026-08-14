@@ -21,6 +21,9 @@ export const business = {
   instagramUrl: "https://instagram.com/dinesh_career_guidance",
   instagramHandle: "@dinesh_career_guidance",
 
+  // LinkedIn link
+  linkedinUrl: "https://www.linkedin.com/in/dinesh-singh-aa75bb360/",
+
   // Quick stats configuration (Neutral, clean, non-fabricated)
   trustMetrics: [
     { label: "Candidates Connected", value: "100+" },

@@ -83,9 +83,9 @@ export const Hero = () => {
                 <ArrowRight size={18} />
               </button>
 
-              <Link to="/reviews" className={styles.secondaryReviewBtn}>
+              <Link to="/proof" className={styles.secondaryReviewBtn}>
                 <Eye size={18} />
-                <span>See Real Reviews</span>
+                <span>See Real Proof</span>
               </Link>
             </div>
 

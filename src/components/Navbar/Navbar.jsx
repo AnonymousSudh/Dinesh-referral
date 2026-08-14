@@ -20,7 +20,6 @@ export const Navbar = () => {
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'Reviews', path: '/reviews' },
-    { name: 'Success Stories', path: '/success-stories' },
     { name: 'Proof', path: '/proof' },
     { name: 'Contact', path: '/contact' },
   ];
