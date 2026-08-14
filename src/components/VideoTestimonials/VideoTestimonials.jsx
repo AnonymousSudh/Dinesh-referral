@@ -41,11 +41,12 @@ export const VideoTestimonials = () => {
                 tabIndex={0}
                 aria-label={`Play video testimonial of ${item.name}`}
               >
-                <img
-                  src={item.thumbnail}
-                  alt={item.name}
+                <video
+                  src={`${item.videoUrl}#t=0.001`}
                   className={styles.posterImage}
-                  loading="lazy"
+                  preload="metadata"
+                  muted
+                  playsInline
                 />
                 <div className={styles.overlayGradient} />
                 
