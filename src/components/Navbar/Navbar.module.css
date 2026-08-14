@@ -217,3 +217,96 @@
   padding: 14px;
   border-radius: var(--radius-md);
 }
+
+/* ─── Mobile-specific Navbar Fixes ─── */
+@media (max-width: 480px) {
+  .navbar {
+    height: 60px;
+  }
+  .logoBadge {
+    width: 34px;
+    height: 34px;
+  }
+  .logoText {
+    font-size: 0.95rem;
+    font-weight: 700;
+  }
+  .brand {
+    gap: 8px;
+  }
+  .brandDetails {
+    gap: 1px;
+  }
+  .businessName {
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  .brandTagline {
+    font-size: 0.65rem;
+    font-weight: 500;
+  }
+  .whatsappBtn {
+    padding: 8px 12px;
+    font-size: 0.8rem;
+  }
+  .whatsappBtn span {
+    display: none;
+  }
+  .hamburgerBtn {
+    padding: 6px;
+  }
+  .mobileNavLink {
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding: 6px 0;
+  }
+  .activeMobileNavLink {
+    font-weight: 600;
+  }
+  .mobileDrawer {
+    top: 60px;
+    padding: 16px;
+  }
+  .mobileNavList {
+    gap: 10px;
+  }
+  .mobileWhatsappBtn {
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 12px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .navbar {
+    height: 64px;
+  }
+  .logoBadge {
+    width: 36px;
+    height: 36px;
+  }
+  .logoText {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .businessName {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .brandTagline {
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+  .whatsappBtn {
+    padding: 8px 14px;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  .mobileNavLink {
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+  .mobileDrawer {
+    top: 64px;
+  }
+}
