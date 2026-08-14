@@ -386,12 +386,122 @@
 
 @media (max-width: 768px) {
   .heroSection {
-    padding: 40px 0 60px 0;
+    padding: 32px 0 48px 0;
   }
   .mainTitle {
-    font-size: 2rem;
+    font-size: 1.75rem;
+    font-weight: 700;
   }
   .subTitle {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  .description {
+    font-size: 0.95rem;
+    font-weight: 400;
+  }
+  .trustNote {
+    font-size: 0.85rem;
+    padding: 10px 14px;
+  }
+  .primaryWhatsappBtn {
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 14px 22px;
+  }
+  .secondaryReviewBtn {
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 12px 20px;
+  }
+  .bulletItem {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .reviewSliderCard {
+    padding: 20px;
+    min-height: 280px;
+  }
+  .reviewerName {
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+  .reviewQuote {
+    font-size: 0.825rem;
+  }
+  .headerTag {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .heroSection {
+    padding: 24px 0 40px 0;
+  }
+  .mainTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  .subTitle {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 14px;
+  }
+  .description {
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  .badgeGroup {
+    margin-bottom: 14px;
+  }
+  .trustBadge {
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 4px 10px;
+  }
+  .founderTag {
+    font-size: 0.75rem;
+    font-weight: 400;
+    padding: 4px 10px;
+  }
+  .trustNote {
+    font-size: 0.8rem;
+    margin-bottom: 24px;
+  }
+  .ctaGroup {
+    margin-bottom: 24px;
+  }
+  .primaryWhatsappBtn {
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 12px 18px;
+    gap: 8px;
+  }
+  .secondaryReviewBtn {
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 10px 16px;
+  }
+  .reviewSliderCard {
+    padding: 16px;
+    min-height: 260px;
+    border-radius: var(--radius-lg);
+  }
+  .reviewerName {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .reviewerRole {
+    font-size: 0.725rem;
+  }
+  .reviewQuote {
+    font-size: 0.8rem;
+  }
+  .quoteWrapper {
+    padding: 10px 12px;
   }
 }

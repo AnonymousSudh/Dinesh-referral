@@ -155,12 +155,52 @@ img {
 
 @media (max-width: 768px) {
   .section-title-group {
-    margin-bottom: 32px;
+    margin-bottom: 28px;
   }
   .section-heading {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
+    font-weight: 700;
   }
   .section-subtitle {
-    font-size: 0.975rem;
+    font-size: 0.9rem;
+  }
+  .section-tag {
+    font-size: 0.75rem;
+    padding: 5px 12px;
+  }
+}
+
+/* ─── Small phone overrides (iPhone SE, small Androids) ─── */
+@media (max-width: 480px) {
+  :root {
+    --navbar-height: 60px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+  }
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.35rem; }
+  h3 { font-size: 1.15rem; }
+  .section-heading {
+    font-size: 1.35rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  .section-subtitle {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+  .section-tag {
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 4px 10px;
+  }
+}
+
+/* ─── iOS / Android text rendering fix ─── */
+@supports (-webkit-touch-callout: none) {
+  body {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
   }
 }
