@@ -7,11 +7,11 @@ export const business = {
   founder: "Dinesh Singh",
 
   // Raw phone number for calls (tel: URI)
-  phone: "+91 8864822102",
-  rawPhone: "918864822102",
+  phone: "+91 63630 90867",
+  rawPhone: "916363090867",
 
   // WhatsApp configuration - Country code without +, spaces or hyphens
-  whatsappNumber: "918864822102",
+  whatsappNumber: "916363090867",
 
   // Default prefilled message
   whatsappMessage:
